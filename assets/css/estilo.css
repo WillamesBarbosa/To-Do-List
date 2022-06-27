@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #100f10;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color:#ff0043;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90vw;
+    margin: auto auto;
+}
+
+input{
+    height: 8rem;
+    font-size: 2rem;
+    width: 80%;
+    padding-bottom: 1rem;
+    padding-top: 0.25rem;
+    border-radius: 10px 0 0 10px;
+}
+
+button.add{
+    cursor: pointer;
+    width: 19%;
+    background-color: #ff0043;
+    color: white;
+    font-weight: bold;
+    border: #ff0043;
+    height: 8rem;
+    border-radius: 0 10px 10px 0;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90vw;
+    margin: auto auto;
+    margin-top: 2.5rem;
+}
+
+.item{
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    border: 2px solid #ff0043;
+    width: 90vw;
+    margin-bottom: 1.5rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.itemIcone{
+    flex: 10%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.itemNome{
+    flex: 70%;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.itemBotao{
+    flex: 20%;
+}
+
+.delete{
+    background-color: #ff0043;
+    color: white;
+    border: none;
+    height: 7rem;
+    width: 100%;
+}
+
+.mdi-check-circle{
+    color: #ff0043;
+}
+
+.item.checked{
+    background: gray;
+}
+
+.item.checked .itemNome{
+    text-decoration: line-through;
+}

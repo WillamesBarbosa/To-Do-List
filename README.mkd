@@ -1,0 +1,5 @@
+# To Do List
+## Esta é uma página que utiliza HTML, CSS E Javascript
+
+## Uma Lista de tarefas simples de usar
+Basta apenas digitar o que deseja adicionar, clicar nas que já concluiu e deletar as que não são mais necessárias.
