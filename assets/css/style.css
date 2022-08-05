@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/fotos-gratis/desejoso-estudante-universitario-mantem-as-maos-em-gesto-de-oracao-acredita-na-boa-sorte-fecha-os-olhos-prepara-tarefas-em-economia-pede-a-deus-que-os-sonhos-se-tornem-realidade_273609-24408.jpg?w=2000) ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    background-color: #0000ff;
+    padding: 0.1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+}
+
+.container{
+    margin-top: 5vh;
+    min-height: 90vh;
+    width: 70vw;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(218, 216, 216);
+    box-shadow: 0px 14px 14px 5px #000000;
+}
+
+
+.input-lista{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.input{
+    margin-left: 5%;
+    width: 72%;
+    height: 3rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.btnAdicionar{
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    flex: 18%;
+    margin-right: 5%;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.svg.titulo{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.tarefa{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    border: solid 3px #ff0000;
+    margin-bottom: 1rem;
+}
+
+.img{
+    flex: 5%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: auto;
+    background-image: url(https://www.svgrepo.com/show/309415/checkbox-unchecked.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.texto{
+    flex: 75%;
+    text-align: left;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+.apagar{
+    flex: 20%;
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+}
+
+.tarefa.checked{
+    background-color: rgb(78, 78, 78);
+}
+
+.texto.checked{
+    opacity: 0.5;
+}
+
+.img.checked{
+    background-image: url(https://www.svgrepo.com/show/309414/checkbox-checked.svg);
+}
